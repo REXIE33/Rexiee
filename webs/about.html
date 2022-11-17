@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="sub-hero">
+    <nav>
+      <img src="img/My project.png" class="logo">
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="cart.html">ORDER</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <div class="content-2">
+    <h1>About Us</h1>
+    <p>Learn More About our Team that made it possible to build <br> an AI and our end goal</p>
+    <a href="learn.html">Learn More</a>
+   </div>
+
+  <div class="row">
+    <div class="about-col">
+      <h3>Talented</h3>
+      <p>We are a group of talented young people that combined our imagination into an creative product that we create to make our life a little bit more interesting </p>
+    </div>
+    <div class="about-col">
+      <h3>Security</h3>
+      <p>We are professionals and we value our customers security as much as our own, we assure you that this product is safe and will not stole your personal info.</p>
+    </div>
+    <div class="about-col">
+      <h3>Value</h3>
+      <p>Customer's satisfaction is our priority and we make sure that our product will last you as long as you need it, our customers's satisfaction is our fuel</p>
+    </div>
+    <div class="about-col">
+      <h3>Service</h3>
+      <p>Our customers service is one of a kind, we provide you with 2 year warranty for our product, our contact landline is always open for our customers to reach out.</p>
+    
+    </div>
+  </div>
+
+    <script>
+      var navLinks = document.getElementById("navLinks")
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </section>
+
+
+
+</body>
+
+</html>
